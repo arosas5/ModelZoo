@@ -1,5 +1,5 @@
 from os.path import abspath, dirname
-from tensorflow_core.python.keras import datasets
+from tensorflow.keras import datasets
 from . import flags
 from .framework import Framework
 from . import preprocess
